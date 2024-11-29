@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+.carousel-item{
+    height: 550px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* เพื่อให้เมนูอยู่ด้านบนสุด */
+}
+body {
+    padding-top: 0px; /* เพิ่มพื้นที่ด้านบนให้เนื้อหาของคุณไม่ถูกเมนูทับ */
+}
+.carousel-image-1{
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/04/16/58/passport-2714675_1280.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background-image: url(https://parfumgallerie.ca/cdn/shop/files/perfume-3640056_1280-1.png?v=1720361041&width=4096);
+    background-size: cover;
+}
+.carousel-image-3{
+    background-image: url(https://parfumgallerie.ca/cdn/shop/files/perfume-3640056_1280-1.png?v=1720361041&width=4096);
+    background-size: cover;
+}
+section.footer{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+
+li a:hover {
+    background-color: rgb(204, 126, 201); /* Highlight ข้อความตอนชี้ */
+    color: rgb(15, 14, 14); /* เปลี่ยนสีข้อความตอนเอาไปชี้ */
+    padding: 5px; /* ให้เห็นความแตกต่างตอนระหว่างชี้ ชี้แล้วจะเกิดการขยับของตัวอักษรเล็กน้อย */
+    transition: background-color 0.3s ease; /* Transition ทำให้ชี้แล้วสมูทมากขึ้น */
+    border-radius: 8px; /* ขอบโค้งมากขึ้น */
+}
+body {
+    margin: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .grid-item1 {
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+  }
+  
+  .grid-item2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .menu-section ul {
+    list-style: none;
+    line-height: 35px;
+  }
+  
+  .social-section div {
+    padding: 0 4rem;
+  }
+  
+  .social-section div i {
+    margin: 20px;
+  }
+  
+  .subscribe-button {
+    background-color: #000;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+
+*{
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
